@@ -1,0 +1,53 @@
+__author__ = 'rls'
+
+class Animal(object):
+    pass
+
+class Dog(Animal):
+    def __init__(self, name):
+        self.name = name
+
+class Cat(Animal):
+    def __init__(self):
+        self.name = name
+
+class Person(object):
+    def __init__(self):
+        self.name = name
+
+        self.pet = None
+
+class Employee(Person):
+    def __init__(self, name, salary):
+        super(Employee, self).__init__(name)
+        self.salary = salary
+
+class Fish(object):
+    pass
+
+class Salmon(Fish):
+    pass
+
+class Halibut(Fish):
+    pass
+
+rover = Dog("Rover")
+
+bad_cat = Cat("Bad Cat")
+
+mary = Person("Mary")
+
+mary.pet = bad_cat
+
+frank = Employee("Frank", 120000)
+
+frank.pet = rover
+
+flipper = Fish()
+
+crouse = Salmon()
+
+harry = Halibut()
+
+
+__version__ = 0.1
