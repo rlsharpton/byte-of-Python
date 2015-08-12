@@ -3,7 +3,7 @@ __author__ = 'rls'
 
 
 class Animal(object):
-    pass
+    pass # doesn't do a thing
 
 class Dog(Animal):
     def __init__(self, name):
