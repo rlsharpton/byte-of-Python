@@ -29,7 +29,7 @@ class Robot:
         """Greeting by the robot
 
         Long doc statement."""
-        print("Greetings, my masters call me {}".format(self.name))
+        print("Greetings, my masters have called me {}".format(self.name))
 
     @classmethod
     def how_many(cls):
@@ -43,4 +43,4 @@ class Robot:
 
 
 
-__version__ = 0.1
+__version__ = 0.2
