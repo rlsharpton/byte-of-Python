@@ -11,3 +11,5 @@ if is_palindrome(something):
     print("Yes, it is a palindrome")
 else:
     print("No, it is not a palindrome")
+
+__version__ = 0.1
