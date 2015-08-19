@@ -1,5 +1,12 @@
 __author__ = 'rls'
+import random
 
+for i in range(1, 6):
+    word = random.randint(1,7)
+    print(word)
+
+
+'''
 try:
     text = input('Enter something -->')
 except EOFError:
@@ -8,5 +15,5 @@ except KeyboardInterrupt:
     print("You cancelled the operation.")
 else:
     print("You entered {}".format(text))
-
+'''
 __version__ = 0.1
