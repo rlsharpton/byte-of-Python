@@ -14,9 +14,8 @@ try:
 except EOFError:
     print("Why and EOF?")
 except ShortInputException as ex:
-    print("ShortInputException: The input was " + \
-          "{0} long, expected at least {1}").format(ex.length, ex.atleast)
+    print("ShortInputException: The input was {0} long, expected at least {1}".format(ex.length, ex.atleast))
 else:
     print("No exception raised")
 
-__version__ = 0.1
+__version__ = 0.2
