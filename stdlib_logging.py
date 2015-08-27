@@ -20,4 +20,4 @@ logging.debug("start of the program")
 logging.info("Doing something")
 logging.warning("Dying Now")
 
-__version__ = 0.2
+__version__ = 0.3
